@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @article.Title %></h1>
+
+<p>
+  <i>by 
+  <%= @article.Author %> </i>
+</p>
+
+<p>
+  <%= @article.Text %>
+</p>
+
+
+
+<p>
+  Published: 
+  <%= @article.Publication_datetime %>
+</p>
+
+<%= "<a href='../'>Back</a>".html_safe %>

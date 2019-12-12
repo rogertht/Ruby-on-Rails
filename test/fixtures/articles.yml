@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Free: false
+  Price_level: 1
+  Title: MyText
+  Text: MyText
+  Author: MyString
+  Publication_datetime: 2019-11-16 21:26:12
+
+two:
+  Free: false
+  Price_level: 1
+  Title: MyText
+  Text: MyText
+  Author: MyString
+  Publication_datetime: 2019-11-16 21:26:12

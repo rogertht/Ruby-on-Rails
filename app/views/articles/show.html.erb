@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Free:</strong>
+  <%= @article.Free %>
+</p>
+
+<p>
+  <strong>Price level:</strong>
+  <%= @article.Price_level %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.Title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @article.Text %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @article.Author %>
+</p>
+
+<p>
+  <strong>Publication datetime:</strong>
+  <%= @article.Publication_datetime %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
